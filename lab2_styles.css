@@ -16,3 +16,21 @@ p {
 a {
     color:red;
 }
+a:hover{
+	background-color:blue;
+
+}
+#important:hover{
+	background-color: yellow;
+	/* font-size: 100pt; */
+	font-size: 15pt;
+}
+.less:hover{
+	color: blue;
+}
+#hiddendiv{
+	display: none;
+}
+#span:hover + #hiddendiv{
+	display: block;
+}
